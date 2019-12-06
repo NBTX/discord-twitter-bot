@@ -1,0 +1,23 @@
+{
+  "name": "discord-twitter-bot",
+  "version": "1.0.0",
+  "description": "A bot to simulate Twitter from a Discord text channel.",
+  "main": "twitter.ts",
+  "scripts": {
+    "start": "ts-node twitter.ts",
+    "dev": "nodemon",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "NBTX",
+  "license": "MIT",
+  "devDependencies": {
+    "nodemon": "^1.19.4"
+  },
+  "dependencies": {
+    "axios": "^0.19.0",
+    "canvas": "^2.6.0",
+    "discord.js": "^11.5.1",
+    "ts-node": "^8.5.4",
+    "typescript": "^3.7.3"
+  }
+}
